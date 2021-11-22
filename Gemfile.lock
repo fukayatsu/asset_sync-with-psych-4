@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/fukayatsu/asset_sync.git
+  revision: 4eb59cebba239f2c97fd042ff6a22306e5a14c5c
+  branch: support-psych-4
+  specs:
+    asset_sync (2.15.0)
+      activemodel (>= 4.1.0)
+      fog-core
+      mime-types (>= 2.99)
+      unf
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -62,11 +73,6 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    asset_sync (2.15.0)
-      activemodel (>= 4.1.0)
-      fog-core
-      mime-types (>= 2.99)
-      unf
     bindex (0.8.1)
     bootsnap (1.9.1)
       msgpack (~> 1.0)
@@ -223,7 +229,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
-  asset_sync
+  asset_sync!
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)

@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.2'
 
-gem "asset_sync"
+gem "asset_sync", github: 'fukayatsu/asset_sync', branch: 'support-psych-4'
 gem 'psych', '>= 4.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
